@@ -1,0 +1,722 @@
+@media (min-width: 1281px) {}
+
+/* 
+    ##Device = Laptops, Desktops
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .jjkellercaption .btn.btn-warning.customebtn {
+        display: inline-block;
+        margin: auto 13px 10px 14px;
+        clear: both;
+        width: 158px;
+        float: right;
+        margin-top: 13px;
+    }
+    .captionall_details h2 {
+        font-size: 18px;
+        left: -19px;
+        margin: 28px 0px;
+    }
+    #header .tel {
+        font-size: 16px;
+    }
+    #header .order-now {
+        font-size: 12px;
+    }
+    #header .mt-3 {
+        margin-top: 0.5rem !important;
+    }
+    .all_faqdetails span {
+        font-size: 17px;
+        padding: 0 0px;
+    }
+    .faqblog {
+        padding: 30px 40px;
+    }
+    .faqblog ul li {
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+    }
+    .faqblog h2 {
+        font-size: 36px;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .jjkellercaption .btn.btn-warning.customebtn {
+        display: inline-block;
+        margin: auto 13px 10px 14px;
+        clear: both;
+        width: 158px;
+        float: right;
+        margin-top: 13px;
+    }
+    .captionall_details h2 {
+        font-size: 21px;
+        left: -4px;
+        margin: 45px 0px;
+    }
+    #header .order-now {
+        margin-left: 0;
+    }
+    #header .mt-3 {
+        margin-top: 0.5rem !important;
+    }
+    .box {
+        margin-right: 15px;
+    }
+    .icon-text {
+        font-size: 13px;
+    }
+    .rule {
+        width: 100%;
+    }
+    .box .num {
+        font-size: 50px;
+    }
+    .checklist .p-0 {
+        padding: 0 15px !important;
+    }
+    .btn-blue {
+        width: auto;
+        font-size: 11px;
+    }
+    .service_why {
+        background-color: #e9e7e3;
+        padding: 15px;
+    }
+    .service_why p {
+        font-size: 12px;
+    }
+    .service_why h6 {
+        font-size: 20px;
+    }
+    .permitservice h3 {
+        font-size: 1.2rem;
+    }
+    .permitservice_details p {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .card-header .fa-stack-1x {
+        line-height: 22px;
+    }
+    .myaccordion .fa-stack-2x {
+        font-size: 1.5em;
+    }
+    
+    .tel-order {
+        position: relative;
+    }
+    #header .order-now {
+        position: fixed;
+        top: 2px;
+        right: 5px;
+    }
+    #header .order-now {
+        padding: 3px 5px;
+        margin: 0px;
+        font-size: 10px;
+    }
+    #header .mt-3 {
+        margin-top: 0 !important;
+    }
+    #header .tel {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+        position: absolute;
+        bottom: -30px;
+        right: 25px;
+        z-index: 1;
+    }
+    #footer a.btn {
+        padding: .375rem 1.75rem;
+    }
+    #footer p img {
+        margin-top: -60px;
+        max-width: 70%;
+        float: right;
+    }
+    #footer .float-right {
+        padding: 0 !important;
+    }
+    .copyright {
+        text-align: center;
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .order-2 {
+        order: 2 !important;
+    }
+    .videozone_details {
+        text-align: center;
+    }
+    .banner-order {
+        background: #eeece9;
+        text-align: center;
+    }
+    .banner-order h3 {
+        font-size: 17px;
+        margin: 10px 0 6px;
+    }
+    .banner-order p {
+        font-size: 15px;
+    }
+    .slidercaption.ad30 {
+        float: inherit;
+        margin: auto;
+    }
+    .slidercaption h2 {
+        font-size: 15px;
+    }
+    .banner-order p {
+        padding: 0;
+        margin: 0px 0px 10px 0;
+    }
+    .captionall_details {
+        display: none;
+    }
+    .jjkellercaption .btn.btn-warning.customebtn {
+        display: inline-block;
+        margin: auto 13px 10px 14px;
+        clear: both;
+        width: 158px;
+        float: right;
+        margin-top: 13px;
+    }
+    .service_details {
+        margin-bottom: 10px;
+    }
+    .state-info .slidercaption {
+        float: right;
+    }
+    .state-info .btn-left {
+        position: absolute;
+        right: 30px;
+    }
+    .jjkeller-banner .item {
+        width: 100%;
+        height: 100%;
+        min-height: 250px;
+    }
+    .jjkeller-banner .item .bg-jjk {
+        max-height: auto;
+    }
+    .oversize-permits h3 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .oversize-permits .img-fluid {
+        display: none;
+    }
+    .oversize-permits {
+        padding: 20px 0px;
+    }
+    .banner-order .btn.btn-warning.customebtn, .checklist .btn.btn-warning.customebtn {
+        padding: 7px 30px;
+        font-size: 15px;
+    }
+    .faq .img-fluid {
+        display: none;
+    }
+    .myaccordion {
+        margin: 20px auto 20px;
+    }
+    .faq {
+        background: url('../images/faq-pic.jpg')center center no-repeat;
+        background-size: cover;
+        border-bottom: 5px solid #063b88;
+    }
+    .myaccordion .card-header {
+        background: #fff;
+        padding: 0.25rem;
+        margin-bottom: 0px;
+    }
+    .card-body {
+        padding: 5px 20px 5px 25px;
+        background: #ffffff;
+    }
+    .myaccordion .card {
+        margin-bottom: 10px;
+    }
+    h3 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .rule {
+        width: 100%;
+        border-top: 5px solid #f5a800;
+    }
+    .checklist p {
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    .checklist .d-none {
+        display: block !important;
+    }
+    .checklist .customebtn {
+        margin: 10px 0px 20px;
+    }
+    .testimonial-section h3 {
+        text-transform: uppercase;
+    }
+    .testimonial .pic {
+        display: none;
+    }
+    .testimonial .description {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .testimonial .testimonial-title {
+        font-size: 12px;
+        margin: 10px 10px 0 0;
+    }
+    .testimonial .testimonial-content {
+        padding: 10px;
+        display: table;
+    }
+    .testi-slider .owl-prev {
+        left: -30px;
+        width: 20px;
+    }
+    .testi-slider .owl-next {
+        right: -30px;
+        width: 20px;
+        background: url(../images/slider-right.png)right top no-repeat;
+    }
+    .box {
+        width: 65%;
+        margin: 0 auto 20px;
+    }
+    .down-check {
+        text-align: center;
+    }
+    .btn-blue {
+        width: 200px;
+    }
+    .checklist .customebtn:nth-child(2) {
+        display: none;
+    }
+    /* fra */
+    .faqblog h2 {
+        font-size: 32px;
+    }
+    .faqblog ul li {
+        margin: 0 0px 4px 3px;
+    }
+    .faqblog ul li {
+        height: 32px;
+        width: 32px;
+        font-size: 21px;
+        margin: 5px 0px 0px 2px;
+    }
+    .why-jjk .faq_blog_question {
+        background: url('../images/sample.jpg') center center no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 0px;
+    }
+    .service_why {
+        background-color: rgb(212, 227, 247, 0.8);
+        padding: 30px;
+    }
+    .why-jjk .faq_blog_question img {
+        display: none;
+    }
+    .service_why h2 {
+        font-size: 20px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .service_why h2 span {
+        border-bottom: 2px solid #0b479e;
+    }
+    .service_why p {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .permitservice {
+        padding: 15px 20px;
+    }
+    .permitservice_details h3 {
+        color: #1b293e;
+        text-align: left;
+    }
+    .permitservice_details p {
+        margin-top: 15px;
+    }
+    .jjkeller_heading .container {
+        max-width: 100%;
+    }
+    .jjkeller_heading {
+        padding: 10px 0 0px;
+    }
+}
+
+/* 
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .oversize-permits h3 {
+        text-transform: inherit;
+        font-size: 18px;
+    }
+    .card-header .fa-stack-1x {
+        line-height: 20px;
+    }
+    .service_details {
+        margin-bottom: 10px;
+    }
+    #header .logo img {
+        max-width: 60%;
+    }
+    .tel-order {
+        position: relative;
+    }
+    #header .order-now {
+        position: fixed;
+        top: 2px;
+        right: 5px;
+    }
+    #header .order-now {
+        padding: 3px 5px;
+        margin: 0px 10px;
+        font-size: 10px;
+    }
+    #header .mt-3 {
+        margin-top: 0 !important;
+    }
+    #header .tel {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+        position: absolute;
+        bottom: -30px;
+        right: 25px;
+        z-index: 1;
+    }
+    #footer a.btn {
+        padding: .375rem 1.75rem;
+    }
+    #footer p img {
+        margin-top: -60px;
+        max-width: 60%;
+        float: right;
+    }
+    #footer .float-right {
+        padding: 0 !important;
+    }
+    .copyright {
+        text-align: center;
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .order-2 {
+        order: 2 !important;
+    }
+    .videozone_details {
+        text-align: center;
+    }
+    .banner-order {
+        background: #eeece9;
+        text-align: center;
+    }
+    .banner-order h3 {
+        font-size: 17px;
+        margin: 10px 0 6px;
+    }
+    .banner-order p {
+        font-size: 15px;
+    }
+    .slidercaption.ad30 {
+        float: inherit;
+        margin: auto;
+        width: 150px;
+    }
+    .slidercaption h2 {
+        font-size: 15px;
+    }
+    .banner-order p {
+        padding: 0;
+        margin: 0px 0px 10px 0;
+    }
+    .captionall_details {
+        display: none;
+    }
+    .jjkellercaption .btn.btn-warning.customebtn {
+        display: inline-block;
+        margin: auto 13px 10px 14px;
+        clear: both;
+        width: 158px;
+        float: right;
+        margin-top: 13px;
+    }
+    .carousel-caption.jjkellercaption {
+        right: 0;
+    }
+    .testimonial {
+        margin: 0 10px;
+    }
+    .testimonial .pic {
+        float: none;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .owl-theme .owl-controls {
+        top: -30px;
+        right: 0;
+    }
+    /* ran */
+    .myaccordion .faq-txt {
+        font-size: 11px;
+    }
+    .myaccordion .fa-stack {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .card-body {
+        padding: 5px 20px 5px 25px;
+    }
+    .card-body p {
+        font-size: 12px;
+    }
+    .box {
+        width: 65%;
+        margin: 0 auto 20px;
+    }
+    .down-check {
+        text-align: center;
+    }
+    .btn-blue {
+        width: 200px;
+    }
+    .checklist .customebtn:nth-child(2) {
+        display: none;
+    }
+    .state-info .slidercaption {
+        float: right;
+    }
+    .state-info .btn-left {
+        position: absolute;
+        right: 30px;
+    }
+    .jjkeller-banner .item {
+        width: 100%;
+        height: 100%;
+        min-height: 200px;
+    }
+    .jjkeller-banner .item .bg-jjk {
+        max-height: 100%;
+    }
+    .oversize-permits h2 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .oversize-permits .img-fluid {
+        display: none;
+    }
+    .oversize-permits {
+        padding: 20px 0px;
+    }
+    .banner-order .btn.btn-warning.customebtn, .checklist .btn.btn-warning.customebtn {
+        padding: 7px 30px;
+        font-size: 15px;
+    }
+    .faq .img-fluid {
+        display: none;
+    }
+    .myaccordion {
+        margin: 20px auto 20px;
+    }
+    .faq {
+        background: url('../images/faq-pic.jpg')center center no-repeat;
+        background-size: cover;
+    }
+    .myaccordion .card-header {
+        background: #fff;
+        padding: 0.25rem;
+        margin-bottom: 0px;
+    }
+    .card-body {
+        padding: 5px 20px 5px 25px;
+        background: #ffffff;
+    }
+    .myaccordion .card {
+        margin-bottom: 10px;
+    }
+    .rule {
+        width: 100%;
+        border-top: 5px solid #f5a800;
+    }
+    .checklist {
+        border-top: 5px solid #063b88;
+        border-bottom: 5px solid #063b88;
+    }
+    .checklist p {
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    .checklist .d-none {
+        display: block !important;
+    }
+    .checklist .customebtn {
+        margin: 10px 0px 20px;
+    }
+    .testimonial-section h3 {
+        text-transform: uppercase;
+    }
+    .testimonial .pic {
+        display: none;
+    }
+    .testimonial .description {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .testimonial .testimonial-title {
+        font-size: 12px;
+        margin: 10px 10px 0 0;
+    }
+    .testimonial .testimonial-content {
+        padding: 10px;
+        display: table;
+    }
+    .testi-slider .owl-prev {
+        left: -20px;
+        width: 20px;
+    }
+    .testi-slider .owl-next {
+        right: -20px;
+        width: 20px;
+        background: url(../images/slider-right.png)right top no-repeat;
+    }
+    /* fr */
+    .faqblog ul li {
+        height: 30px;
+        width: 30px;
+        font-size: 18px;
+        margin: 5px 0px 5px 2px;
+    }
+    .faqblog h2 {
+        font-size: 28px;
+    }
+    .faq_blog_question .col-md-6 {
+        padding: 0;
+    }
+    .faqblog {
+        padding: 30px 40px;
+    }
+    .faq_blog_question {
+        margin-bottom: 0px;
+    }
+    .jjkeller_heading {
+        padding: 10px 0 0px;
+    }
+    .why-jjk .faq_blog_question {
+        background: url('../images/sample.jpg') center center no-repeat;
+        background-size: 100% 100%;
+    }
+    .service_why {
+        background-color: rgb(212, 227, 247, 0.8);
+        padding: 30px;
+    }
+    .why-jjk .faq_blog_question img {
+        display: none;
+    }
+    .service_why h2 {
+        font-size: 20px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .service_why h2 span {
+        border-bottom: 2px solid #0b479e;
+    }
+    .service_why p {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .permitservice {
+        padding: 15px 20px;
+    }
+    .permitservice_details h3 {
+        color: #1b293e;
+        text-align: left;
+    }
+    .permitservice_details p {
+        margin-top: 15px;
+    }
+    .service_details p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .blog_State_Information {
+        padding: 30px;
+    }
+    .all_faqdetails img {
+        display: none;
+    }
+    .all_faqdetails p {
+        text-align: left;
+        font-size: 13px;
+    }
+    .all_faqdetails span {
+        font-size: 20px;
+        padding: 0px;
+    }
+    .faq.faq_newbg {
+        border: 0px;
+    }
+    .faq_newbg .customebtn {
+        display: none;
+    }
+    .sliderfaq h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+    .sliderfaq {
+        padding: 28px 0;
+        border-bottom: 3px solid #ffde51;
+    }
+    .faqslider .owl-prev {
+        left: -25px;
+        width: 20px;
+    }
+    .faqslider .owl-next {
+        right: -25px;
+        background: url(../images/slider-right.png)right top no-repeat;
+        width: 25px;
+    }
+    .footer-link li a {
+        font-size: 13px;
+    }
+    #jjkellerslider .item img {
+        min-height: 150px;
+    }
+    #jjkellerslider .owl-pagination {
+        display: none;
+    }
+}
